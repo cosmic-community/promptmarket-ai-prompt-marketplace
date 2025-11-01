@@ -5,6 +5,7 @@ import PromptDetail from '@/views/PromptDetail.vue'
 import Categories from '@/views/Categories.vue'
 import Dashboard from '@/views/Dashboard.vue'
 import Analytics from '@/views/Analytics.vue'
+import Admin from '@/views/Admin.vue'
 
 const routes: RouteRecordRaw[] = [
   {
@@ -36,6 +37,11 @@ const routes: RouteRecordRaw[] = [
     path: '/analytics',
     name: 'Analytics',
     component: Analytics
+  },
+  {
+    path: '/admin',
+    name: 'Admin',
+    component: Admin
   }
 ]
 

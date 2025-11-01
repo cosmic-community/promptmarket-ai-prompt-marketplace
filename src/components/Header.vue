@@ -23,6 +23,9 @@
           <router-link to="/analytics" class="text-secondary-600 hover:text-primary-600 transition-colors">
             Analytics
           </router-link>
+          <router-link to="/admin" class="text-secondary-600 hover:text-primary-600 transition-colors">
+            Admin CMS
+          </router-link>
         </nav>
 
         <div class="flex items-center gap-4">
